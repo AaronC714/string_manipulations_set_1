@@ -10,3 +10,7 @@ def remove_leading_spaces(user_name):
     while index < len(user_name) and user_name[index] == ' ':
         index += 1
     return user_name[index:]
+
+#Print the result
+user_name = remove_leading_spaces(user_name)
+print(f"Name after removing leading spaces: '{user_name}'")
