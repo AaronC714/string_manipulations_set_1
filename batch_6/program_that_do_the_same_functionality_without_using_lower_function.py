@@ -2,3 +2,5 @@
 #user input
 #define and add lower case process
 #print user input in lower case
+
+user_input = str(input("Enter a text here: "))
