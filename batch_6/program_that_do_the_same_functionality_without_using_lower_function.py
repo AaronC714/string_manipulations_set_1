@@ -1,1 +1,4 @@
-#Prog03. lower() converts all characters of the string into lower case. Create a program that do the same functionality without using lower() function.
+#Prog03. Create a program that do the same functionality without using lower() function.
+#user input
+#define and add lower case process
+#print user input in lower case
