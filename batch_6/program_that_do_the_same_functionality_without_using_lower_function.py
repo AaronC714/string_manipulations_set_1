@@ -15,3 +15,5 @@ def lower_case(user_input):
             result += char
 
     return result
+    
+print (lower_case(user_input))
