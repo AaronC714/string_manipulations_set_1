@@ -10,3 +10,5 @@ def remove_prefix(text, prefix):
 
 user_name = str(input("Enter your name: "))
 parameters = str(input("Enter prefix to remove: "))
+result = remove_prefix(user_name, parameters)
+print(f"String after removing prefix: '{result}'")
