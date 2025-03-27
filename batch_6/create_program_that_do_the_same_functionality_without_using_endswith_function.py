@@ -5,3 +5,6 @@
 
 def ends_with(text, suffix):
     return text[-len(suffix):] == suffix if len(suffix) <= len(text) else False
+
+user_input = input("Enter a string: ")
+suffix_input = input("Enter the suffix to check: ")
