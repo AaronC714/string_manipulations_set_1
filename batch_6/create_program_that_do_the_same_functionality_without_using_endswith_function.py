@@ -8,3 +8,7 @@ def ends_with(text, suffix):
 
 user_input = input("Enter a string: ")
 suffix_input = input("Enter the suffix to check: ")
+
+#if the string ends with the given suffix
+result = ends_with(user_input, suffix_input)
+print(result)
