@@ -7,3 +7,9 @@
 def is_upper_case(user_input):
     upper_count = 0
     lower_count = 0
+    
+    for count in user_input:
+        if 'A' <= count <= 'Z':  #if the character is uppercase
+            upper_count += 1
+        elif 'a' <= count <= 'z':  #if the character is lowercase
+            lower_count += 1
