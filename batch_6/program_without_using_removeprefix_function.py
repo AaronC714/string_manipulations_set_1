@@ -1,6 +1,6 @@
 #Prog02. Create a program that do the same functionality without using removeprefix() function.
-#user input name
 #process in removing prefix under desired parameter
+#user input name
 #print user name after process
 
 def remove_prefix(text, prefix):
