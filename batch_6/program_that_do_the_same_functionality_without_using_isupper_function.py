@@ -13,3 +13,7 @@ def is_upper_case(user_input):
             upper_count += 1
         elif 'a' <= count <= 'z':  #if the character is lowercase
             lower_count += 1
+    if lower_count == 0:
+        print("True")
+    else:
+        print("False")
