@@ -17,3 +17,8 @@ def is_upper_case(user_input):
         print("True")
     else:
         print("False")
+        
+user_input = input("Enter a text here: ")
+
+#print result
+print = (is_upper_case(user_input))
