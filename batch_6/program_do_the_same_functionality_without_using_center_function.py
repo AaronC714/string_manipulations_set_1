@@ -15,3 +15,7 @@ def center_function(text, char, length):
     right_padding = total_padding - left_padding
 
     return char * left_padding + text + char * right_padding
+
+user_input = input("Enter a text: ")
+character_choice = input("Type character you want to use: ")
+total_length = input("How long do you want the result to be: ")
