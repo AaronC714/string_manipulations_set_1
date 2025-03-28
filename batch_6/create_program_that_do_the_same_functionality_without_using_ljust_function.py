@@ -8,3 +8,6 @@ def left_just(text, num_spaces):
         return "Invalid input, must be an integer"
     
     return text + "_" * int(num_spaces)
+
+user_input = str(input("Enter a statement: "))
+add_spaces = (input("Input how many spaces you would like after your initial input: "))
