@@ -19,3 +19,6 @@ def center_function(text, char, length):
 user_input = input("Enter a text: ")
 character_choice = input("Type character you want to use: ")
 total_length = input("How long do you want the result to be: ")
+
+result = center_function(user_input, character_choice, total_length)
+print (f"'{result}'")
