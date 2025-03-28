@@ -15,3 +15,5 @@ def title_case(text):
     return ' '.join(result)
 
 user_input = input("Enter a string: ")
+title_case_form = title_case(user_input)
+print(f"'{title_case_form}'")
