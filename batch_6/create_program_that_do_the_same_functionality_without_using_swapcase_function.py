@@ -15,3 +15,6 @@ def swap_case(user_input):
             result += char
 
     return result
+
+user_input = str(input("Enter a text here: "))    
+print (swap_case(user_input))
