@@ -13,3 +13,5 @@ def title_case(text):
 
     # Join the words back together with spaces
     return ' '.join(result)
+
+user_input = input("Enter a string: ")
