@@ -11,3 +11,5 @@ def mimic_capitalize(text):
         return text
 
 user_input = input("Enter a string: ")
+capitalize_form = mimic_capitalize(user_input)
+print(f"'{capitalize_form}'")
