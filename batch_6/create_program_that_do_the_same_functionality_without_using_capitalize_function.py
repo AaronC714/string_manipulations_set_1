@@ -9,3 +9,5 @@ def mimic_capitalize(text):
         return text[0].upper() + text[1:].lower()
     else:
         return text
+
+user_input = input("Enter a string: ")
