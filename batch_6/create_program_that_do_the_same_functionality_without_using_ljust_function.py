@@ -11,3 +11,6 @@ def left_just(text, num_spaces):
 
 user_input = str(input("Enter a statement: "))
 add_spaces = (input("Input how many spaces you would like after your initial input: "))
+
+result = left_just(user_input, add_spaces)
+print (f"'{result}'")
