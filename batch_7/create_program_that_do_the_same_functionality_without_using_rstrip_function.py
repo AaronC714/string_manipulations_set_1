@@ -10,3 +10,6 @@ def remove_latter_spaces(user_name):
     return user_name[:index + 1] 
 
 user_name = input("Enter your name with multiple spaces before it (ex. Juan Dela Cruz           ): ")
+
+user_name = remove_latter_spaces(user_name)
+print(f"Name after removing latter spaces: '{user_name}'")
