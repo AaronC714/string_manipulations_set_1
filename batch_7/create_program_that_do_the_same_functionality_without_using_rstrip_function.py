@@ -7,4 +7,6 @@ def remove_latter_spaces(user_name):
     index = -1 
     while index >= -len(user_name) and user_name[index] == ' ':
         index -= 1
-    return user_name[:index + 1]
+    return user_name[:index + 1] 
+
+user_name = input("Enter your name with multiple spaces before it (ex. Juan Dela Cruz           ): ")
