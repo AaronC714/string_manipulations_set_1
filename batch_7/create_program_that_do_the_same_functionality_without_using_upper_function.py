@@ -12,3 +12,7 @@ def upper_case(text):
         else:
             result += char
     return result
+
+user_input = input("Enter a string: ")
+capital_case = upper_case(user_input)
+print (capital_case)
