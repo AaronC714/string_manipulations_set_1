@@ -10,3 +10,6 @@ def remove_suffix(text, suffix):
 
 user_input = str(input("Enter a string: "))
 suffix_choice = str(input("Enter suffix you want to remove: "))
+
+final_text = remove_suffix(user_input, suffix_choice)
+print (final_text)
