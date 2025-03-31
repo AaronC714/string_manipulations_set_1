@@ -8,3 +8,6 @@ def custom_rindex(string, substring):
         if string[i:i + len(substring)] == substring:
             return i
     raise ValueError(f"'{substring}' not found in the given string.")
+
+string = input("Enter the main string: ")
+substring = input("Enter the substring to find: ")
