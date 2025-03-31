@@ -5,3 +5,6 @@
 
 def starts_with(text, prefix):
     return text[:len(prefix)] == prefix
+
+user_input = input("Enter a string: ")
+start_choice = input("Prefix to check: ")
