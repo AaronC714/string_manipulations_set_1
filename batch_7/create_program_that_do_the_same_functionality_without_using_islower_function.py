@@ -2,3 +2,13 @@
 #create def process for islower function
 #ask user input
 #print result
+
+def is_lower(text):
+    result = ""
+
+    for char in text:
+        if 'A' <= char <= 'Z':
+            result += chr(ord(char) + 32)
+        else:
+            result += char
+    return result
