@@ -11,3 +11,9 @@ def custom_rindex(string, substring):
 
 string = input("Enter the main string: ")
 substring = input("Enter the substring to find: ")
+
+try:
+    result = custom_rindex(string, substring)
+    print(f"The last occurrence of '{substring}' is at index {result}.")
+except ValueError as e:
+    print(e)
