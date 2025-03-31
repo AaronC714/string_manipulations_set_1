@@ -15,7 +15,7 @@ def right_just(text, total_width):
     return "_" * (total_width - len(text)) + text  
 
 user_input = str(input("Enter a statement: "))
-add_spaces = (input("Input how many spaces you would like after your initial input: "))
+add_spaces = (input("Input how much width would you like after your initial input: "))
 
 result = right_just(user_input, add_spaces)
 print (f"'{result}'")
