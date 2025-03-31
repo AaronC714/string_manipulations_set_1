@@ -1,0 +1,1 @@
+#Prog04. Create a program that do the same functionality without using islower() function.
