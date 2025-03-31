@@ -12,3 +12,7 @@ def is_lower(text):
         else:
             result += char
     return result
+
+user_input = input("enter a string: ")
+lower_function = is_lower(user_input)
+print (lower_function)
