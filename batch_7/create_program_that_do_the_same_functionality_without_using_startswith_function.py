@@ -1,0 +1,1 @@
+#Prog05.  Create a program that do the same functionality without using startswith() function.
