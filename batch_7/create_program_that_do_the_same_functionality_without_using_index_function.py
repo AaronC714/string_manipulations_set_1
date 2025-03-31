@@ -8,3 +8,6 @@ def custom_index(string, substring):
         if string[i:i + len(substring)] == substring:
             return i
     raise ValueError(f"'{substring}' not found in the given string.")
+
+user_input = input("Enter the main string: ")
+index_search = input("Enter the substring to find: ")
