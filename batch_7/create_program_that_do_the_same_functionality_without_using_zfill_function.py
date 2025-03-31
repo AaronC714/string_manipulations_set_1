@@ -13,3 +13,9 @@ def zero_fill(number, total_width):
         return number
     
     return "0" * (total_width - len(number)) + number
+
+user_input = input("Enter a number: ")
+width = input("Enter the total width (including leading zeros): ")
+
+result = zero_fill(user_input, width)
+print(f"'{result}'")
