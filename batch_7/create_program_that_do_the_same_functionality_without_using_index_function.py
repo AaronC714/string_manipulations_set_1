@@ -11,3 +11,9 @@ def custom_index(string, substring):
 
 user_input = input("Enter the main string: ")
 index_search = input("Enter the substring to find: ")
+
+try:
+    result = custom_index(user_input, index_search)
+    print(f"'{index_search}' is at index {result}.")
+except ValueError as e:
+    print(e)
